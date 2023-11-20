@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Basic",
+        "benefits": [
+            "Multiple themes to customise the look of your e-commerce website",
+            "Manage Inventory",
+            "Custom domain connection",
+            "Take Online payment and Delivery Integration",
+            "Add and Manage Staff"
+        ],
+        "recommended": false,
+        "price": 999,
+        "duration": "year"
+    },
+    {
+        "id": 2,
+        "title": "Ultimate",
+        "benefits": [
+            "Free first-time e-commerce store setup",
+            "Abandoned Cart to recover lost sales",
+            "Advanced E-commerce Bundle with Loyalty Programmes, Wishlist, & more",
+            "Google Shop integration",
+            "Along with everything in Basic",
+            "Pincode based shipping"
+        ],
+        "recommended": true,
+        "price": 2999,
+        "duration": "year"
+    },
+    {
+        "id": 3,
+        "title": "Enterprise",
+        "benefits": [
+            "Everything from Basic & Ultimate",
+            "Premium Store Setup",
+            "Website Creation",
+            "End-to-End cloud based platform",
+            "Secured Server",
+            "Server Scaleup with increased traffic",
+            "Dedicated Business Coach"
+        ],
+        "recommended": false,
+        "price": 5999,
+        "duration": "year"
+    }
+]

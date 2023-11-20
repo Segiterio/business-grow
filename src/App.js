@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./pages/Home/Home";
+import { Route, Routes } from "react-router-dom";
+import Header from "./components/Header/Header";
+import React, { useEffect, useState } from "react";
+import SideBar from "./components/Mobile/SideBar/SideBar";
 
 function App() {
+  const [mobileSideBar, setMobileSideBar] = useState(false);
+  const [windowSize, setWindowSize] = useState(window.innerWidth);
+
+  useEffect(() => {
+    if (windowSize >= 640) {
+      setMobileSideBar(false);
+    }
+  }, [windowSize]);
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(window.innerWidth);
+    }
+    window.addEventListener("resize", handleWindowResize);
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* Mobile side bar */}
+      {mobileSideBar ? <SideBar setMobileSideBar={setMobileSideBar} /> : null}
+      <Header setMobileSideBar={setMobileSideBar} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }

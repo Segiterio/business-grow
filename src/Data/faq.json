@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "question": "What products or services do you offer?",
+        "answer": "We offer a variety of products and services tailored to meet your needs. Our range includes [list of products/services]. Please explore our website for more details on each offering."
+    },
+    {
+        "id": 2,
+        "question": "How can I place an order?",
+        "answer": "Placing an order is easy! Simply visit our website, browse through our catalog, and add the desired items to your cart. Follow the checkout process to provide shipping details and make payment. If you encounter any issues, our customer support team is ready to assist you."
+    },
+    {
+        "id": 3,
+        "question": "What payment methods do you accept?",
+        "answer": "We accept a variety of payment methods to provide convenience for our customers. Currently, we support payments via credit/debit cards, PayPal, and bank transfers. You can choose the option that suits you best during the checkout process."
+    },
+    {
+        "id": 4,
+        "question": "How can I track my order?",
+        "answer": "Once your order is dispatched, you will receive a confirmation email with a tracking number. You can use this tracking number to monitor the status and location of your shipment. Additionally, you can log in to your account on our website to view the order status and tracking information."
+    },
+    {
+        "id": 5,
+        "question": "What is your return policy?",
+        "answer": "We have a hassle-free return policy to ensure customer satisfaction. If you are not satisfied with your purchase, you can return the item(s) within 30 days of receiving your order. Please refer to our 'Returns and Exchanges' page for detailed instructions on how to initiate a return and for any specific conditions that may apply."
+    }
+]

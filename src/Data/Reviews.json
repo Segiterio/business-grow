@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "user": "JohnDoe123",
+    "rating": 4.5,
+    "comment": "Great product! It exceeded my expectations. The build quality is fantastic, and the features are very user-friendly.",
+    "date": "2023-02-15",
+    "likes": 25,
+    "dislikes": 2,
+    "helpful": true,
+    "tags": [
+      "electronics",
+      "gadgets"
+    ]
+  },
+  {
+    "id": 2,
+    "user": "JaneSmith456",
+    "rating": 3.2,
+    "comment": "The product is okay, but the instructions could be clearer. I had some difficulty setting it up. However, customer support was helpful.",
+    "date": "2023-03-05",
+    "likes": 12,
+    "dislikes": 5,
+    "helpful": false,
+    "tags": [
+      "electronics"
+    ]
+  },
+  {
+    "id": 3,
+    "user": "TechEnthusiast77",
+    "rating": 4.8,
+    "comment": "Absolutely love it! The product is well-designed, and the interface is intuitive. The customer service response time is impressive.",
+    "date": "2023-03-12",
+    "likes": 30,
+    "dislikes": 1,
+    "helpful": true,
+    "tags": [
+      "tech",
+      "gadgets"
+    ]
+  },
+  {
+    "id": 4,
+    "user": "GadgetGuru55",
+    "rating": 3.0,
+    "comment": "Decent product. It serves its purpose, but the build quality could be better. The price seems a bit high for what you get.",
+    "date": "2023-03-20",
+    "likes": 8,
+    "dislikes": 3,
+    "helpful": true,
+    "tags": [
+      "gadgets"
+    ]
+  }
+]

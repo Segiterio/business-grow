@@ -1,0 +1,55 @@
+{
+        "contact": {
+            "heading": "Contact Us",
+            "address": "123 Main Street, Cityville, Country",
+            "email": "info@example.com",
+            "phone": "+1 (555) 123-4567"
+        },
+        "social_media": {
+            "heading": "Connect With Us",
+            "links": {
+                "facebook": "https://www.facebook.com/example",
+                "twitter": "https://twitter.com/example",
+                "instagram": "https://www.instagram.com/example"
+            }
+        },
+        "quick_links": {
+            "heading": "Quick Links",
+            "links": [
+                {
+                    "text": "Home",
+                    "url": "/"
+                },
+                {
+                    "text": "About Us",
+                    "url": "/about"
+                },
+                {
+                    "text": "solutions",
+                    "url": "/solutions"
+                },
+                {
+                    "text": "Contact Us",
+                    "url": "/contact"
+                }
+            ]
+        },
+        "newsletter": {
+            "heading": "Subscribe to Our Newsletter",
+            "description": "Stay updated with our latest products and promotions. Subscribe to our newsletter for regular updates.",
+            "form": {
+                "placeholder": "Enter your email",
+                "button_text": "Subscribe"
+            }
+        },
+
+        "services": {
+            "heading": "Our Services",
+            "list": [
+              {"text": "Service 1", "url": "/services/service-1"},
+              {"text": "Service 2", "url": "/services/service-2"},
+              {"text": "Service 3", "url": "/services/service-3"},
+              {"text": "Service 4", "url": "/services/service-4"}
+            ]
+          }
+    }
