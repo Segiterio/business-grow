@@ -6,7 +6,7 @@ export const BG = styled.div`
 `
 
 export const ReviewsWrapper = styled.section`
-  max-width: 1440px;
+  max-width: 1280px;
   width: 95%;
   margin: 0 auto;
 

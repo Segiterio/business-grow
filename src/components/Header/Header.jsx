@@ -3,6 +3,7 @@ import { HeaderContainer, Nav, Wrapper, Ham } from "./HeaderStyle";
 import navbarData from "../../Data/nav.json";
 import { RxHamburgerMenu } from "react-icons/rx";
 
+
 const Header = ({ setMobileSideBar }) => {
   return (
     <Wrapper $border>

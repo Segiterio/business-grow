@@ -10,7 +10,7 @@ export const HeaderContainer = styled.header`
   align-items: center;
   padding: 0.5rem 0;
   width: 95%;
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
 
   & > div:first-child {

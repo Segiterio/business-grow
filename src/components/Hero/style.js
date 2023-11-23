@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeroContainer = styled.div`
   display: grid;
   gap:1rem;
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 3rem auto;
   padding: 0 1rem;
  

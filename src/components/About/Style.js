@@ -9,7 +9,7 @@ export const AboutWrapper = styled.div`
 
 export const ContentContainer = styled.div`
   width: 95%;
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
   display: grid;
   gap: 2rem;
